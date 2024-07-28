@@ -1,0 +1,116 @@
+  /* .skill-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+    justify-items: center;
+    justify-items: stretch;
+  }
+
+  .skill-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3 ease;
+  }
+
+  .skill-card:hover{
+    transform: translateY(-5px);
+  }
+
+  .skill-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skill-card-content h3 {
+    margin-bottom: 10px;
+  }
+  
+  .skill-card-content img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3 ease;
+  }
+  
+  .skill-card:hover .skill-card-content img{
+    transform: scale(1.1);
+  } */
+
+  .skill-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.skill-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px; 
+    margin: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.skill-card:hover {
+    transform: translateY(-5px); 
+}
+
+.skill-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.skill-card-content h3 {
+    margin-bottom: 10px;
+}
+
+.skill-card-content img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-card-content img {
+    transform: scale(1.1); 
+}
+
+.skill-div{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
